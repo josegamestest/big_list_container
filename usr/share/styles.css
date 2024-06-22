@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a395f;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2px;
+}
+
+.titulo {
+    background-color: #57e6fc;
+    color: #1a1629;
+    padding: 2px;
+    margin: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.content {
+    background-color: #feffc9;
+    color: #333333;
+    padding: 2px;
+    margin: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+#docker-ps {
+    flex: 0 0 220px; /* Definindo largura fixa de 300px para o primeiro container */
+}
+h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+pre {
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+
