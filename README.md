@@ -2,12 +2,12 @@
 
 Pro: José Anastácio
 Mail: joseanastaciocastilho@gmail.com
-Data: 21/06/2024 horario de Brasilia
+Data: 21/06/2024 horario de Brasília
 
 PT-BR
 Proposta
-ese programa tem com proposta fazer a listagem de container e imagens em Docker Container em interface Bigbashview
-Programa em test criado para suprir minhas nessecidade evitando que preicise todo momento escrever vaias linha no terminal para checar o estado de minha maquina.
+Este programa tem com proposta fazer a listagem de container e imagens em Docker Container em interface Bigbashview
+Programa em teste criado para suprir minhas nessecidade evitando que precise todo momento escrever vaias linha no terminal para checar o estado de minha maquina.
 implementacoes podem acontecer
 
 EN
