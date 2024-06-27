@@ -53,7 +53,12 @@ This program is being tested and was created to meet my needs, avoiding mental f
     ls /usr/bin/start_listar_containers.sh
 
 ## iniciar programa / start program
-    $   cd /usr/bin/
+
+    $ /usr/bin/start_listar_containers.sh
+
+Ou
+
+    $ cd /usr/bin/
 
     $ ./start_listar_containers.sh
     
