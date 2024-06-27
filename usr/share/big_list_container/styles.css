@@ -1,9 +1,29 @@
+/*
+ #Created: 2024/06/27
+ #Copyright (c) 2024-2024, Jose Anastacio joseanastaciocastilho@gmail.com
+ #lisense GPL3
+*/
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a395f;
+    background-color: #486f58;
+}
+.botao {
+            display: inline-block;
+            width: 128px; /* Largura do botão */
+            height: 32px; /* Altura do botão */
+            text-align:center;
+            color:#FFF;
+            border: 2px solid #aaa;
+            cursor: pointer;
+        }
+.botao1 {
+    background-color: #0A0;
+}
+.botao2 {
+    background-color: #A00;
 }
 
 #container {
@@ -11,9 +31,11 @@ body {
     justify-content: center;
     align-items: flex-start;
     padding: 2px;
+    
 }
 
 .titulo {
+    
     background-color: #57e6fc;
     color: #1a1629;
     padding: 2px;
@@ -22,6 +44,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     flex: 1;
+    
 }
 
 .content {
@@ -34,8 +57,22 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     flex: 1;
 }
+
+.status{
+    background-color: #000000;
+    color: #efffcb;
+    padding: 2px;
+    margin: 10px;
+    border: 1px solid #7f1818;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+
 #docker-ps {
     flex: 0 0 220px; /* Definindo largura fixa de 300px para o primeiro container */
+    
 }
 h2 {
     font-size: 20px;
