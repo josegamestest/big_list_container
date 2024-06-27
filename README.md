@@ -5,25 +5,26 @@ Mail: joseanastaciocastilho@gmail.com
 Data: 21/06/2024 horario de Brasília
 
 PT-BR
-Proposta
-Este programa tem com proposta fazer a listagem de container e imagens em Docker Container em interface Bigbashview
-Programa em teste criado para suprir minhas nessecidade evitando que precise todo momento escrever vaias linha no terminal para checar o estado de minha maquina.
-implementacoes podem acontecer
+Programa de suporte a docker container no Linux
+Para evitar ter de escrever vários comandos de parar e iniciar os serviços docker no sistema, fazer  listagem dos conteiners e imagens de sistemas criados este programa propõe  fazer tudo isso de forma rápida e organizada na interface do Bigbashview e quase ao mesmo tempo.
+#Atenção#
+Este programa esta em teste e foi criado para suprir minhas necessidade evitando que cansaço mental e que me poupe tempo escrevendo vaias linha no terminal para checar o estado de minha maquina. implementações podem acontecer
+
 
 EN
-Proposal
-This program aims to list containers and images in Docker Container in Bigbashview interface
-Test program created to meet my needs, preventing me from having to write new lines in the terminal all the time to check the status of my machine.
-implementations can happen
+Docker container support program on Linux
+To avoid having to write several commands to stop and start Docker services in the system, list the containers and system images created, this program proposes to do all this quickly and organized in the Bigbashview interface and almost at the same time.
+#Attention#
+This program is being tested and was created to meet my needs, avoiding mental fatigue and saving me time writing new lines in the terminal to check the status of my machine. implementations can happen
 
 
-## Como Usar
+## Como Usar  How to use
 1. Torne o script executável:
     chmod +x start_listar_containers.sh
 2. Execute o script:
     ./start_listar_containers.sh
     
-## Dependências
+## Dependências  Dependencies
 - Docker
 - BigBashView
 
