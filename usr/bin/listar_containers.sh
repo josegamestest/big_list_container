@@ -18,7 +18,7 @@ echo "
         
         <title>Docker Status</title>
         
-        <link rel='stylesheet' href='usr/share/big_list_container/styles.css'>
+        <link rel='stylesheet' href='/usr/share/big_list_container/styles.css'>
         
         <script>
             function paginarestart(){
