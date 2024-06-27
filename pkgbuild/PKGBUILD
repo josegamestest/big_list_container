@@ -1,0 +1,25 @@
+# Maintainer: Jose Anastacio <joseanastaciocastilho@gmail.com>
+
+pkgname=big_list_container
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
+arch=('any')
+license=('GPL')
+pkgdesc="Program to list docker images and containers"
+depends=('docker' 'bigbashview')
+url="https://github.com/josegamestest/$pkgname"
+source=("git+${url}.git")
+md5sums=('SKIP')
+
+package() {
+    cd "$srcdir/$pkgname"
+
+    # Cria os diretórios de destino
+    install -dm755 "$pkgdir/usr/share/big_list_container"
+    install -dm755 "$pkgdir/usr/bin"
+
+    # Copia os arquivos para os diretórios apropriados
+    install -m644 "usr/share/big_list_container/styles.css" "$pkgdir/usr/share/big_list_container/styles.css"
+    install -m755 "usr/bin/listar_containers.sh" "$pkgdir/usr/bin/listar_containers.sh"
+    install -m755 "usr/bin/start_listar_containers.sh" "$pkgdir/usr/bin/start_listar_containers.sh"
+}
