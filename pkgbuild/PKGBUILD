@@ -21,5 +21,6 @@ package() {
     # Copia os arquivos para os diretórios apropriados
     install -m644 "usr/share/big_list_container/styles.css" "$pkgdir/usr/share/big_list_container/styles.css"
     install -m755 "usr/bin/listar_containers.sh" "$pkgdir/usr/bin/listar_containers.sh"
-    install -m755 "usr/bin/start_listar_containers.sh" "$pkgdir/usr/bin/start_listar_containers.sh"
+    #install -m755 "usr/bin/start_listar_containers.sh" "$pkgdir/usr/bin/start_listar_containers.sh"
+    install -m755 "usr/bin/start_listar_containers.sh" "$pkgdir/usr/local/bin/big_list_container" # Modificado para o novo diretório
 }

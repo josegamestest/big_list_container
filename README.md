@@ -50,11 +50,11 @@ This program is being tested and was created to meet my needs, avoiding mental f
 
     ls /usr/bin/listar_containers.sh
 
-    ls /usr/bin/start_listar_containers.sh
+    ls /usr/local/bin/big_list_container
 
 ## iniciar programa / start program
 
-    $ /usr/bin/start_listar_containers.sh
+    $ big_list_container
 
 Ou
 
